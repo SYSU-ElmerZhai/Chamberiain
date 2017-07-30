@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 方正细圆简体;
+    src:url('../font/FZY1JW.TTF');
+}
+@font-face {
+    font-family: 苹方常规;
+    src:url('../font/PINGFANGREGULAR.TTF');
+}
+
+body {
+    background:-webkit-gradient(linear,right top,left top,from(#66cdcc), to(#366c9b));
+    font-family: Arial;
+    width:1920px;
+    height:1080px;
+}
+.whole_page {
+    width:368px;
+    padding:20px;
+    margin:201px;
+    margin-left:820px;
+    color:white;
+    border:1px solid red;
+}
+div.firstPageTitle {
+    margin-bottom: 64px;
+    padding-top:0;
+}
+div.chineseTitle {
+    height:43px;
+    line-height: 43px;
+    font-size: 43px;
+    display:inline-block;
+    vertical-align: top;
+    font-family: 方正细圆简体;
+}
+div.englishTitle {
+    line-height:24px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 苹方常规;
+}
+div.englishTitle span {
+    font-size:24px;
+    display: block;
+}
+span.indroduction {
+    display: block;
+    font-size:17.5px;
+    font-family: 苹方常规;
+    margin-top: 5px;
+}
+div.user {
+    width:328px;
+    height:40px;
+    border-radius: 20px;
+    background-color: #8fb8ca;
+    margin-bottom: 20px;
+    padding:5px;
+    border:2px solid #a7d8e6;
+}
+img.userImage,
+img.passwordImage{
+    width:30px;
+    height:30px;
+    margin-left:5px;
+    margin-right:3px;
+}
+input.userInput {
+    width:250px;
+    background-color: #8fb8ca;
+    outline:none;
+    border:0px;
+    color:#ffffff;
+}
+div.password {
+    width:328px;
+    height:40px;
+    padding:5px;
+    border-radius: 20px;
+    background-color: #8fb8ca;
+    border:2px solid #a7d8e6;
+    margin-bottom: 20px;
+}
+div.operateArea a {
+    font-size:16px;
+    font-family: 苹方常规;
+    color:white;
+}
+a.register {
+    margin-left:5px;
+}
+a.forgetPassword {
+    margin-left:207px;
+    margin-bottom:12px;
+}
+
+button.logIn {
+    display: block;
+    margin-top:5px;
+    width:328px;
+    border-radius:20px;
+    height:40px;
+    background-color: #bfe8eb;
+    color: #1f517d;
+    font-size:20px;
+    font-family: 苹方常规;
+    outline: none;
+    border: none;
+}
+
+div.register {
+    background-color: white;
+    position:absolute;
+    width:540px;
+    height:593px;
+    top:275px;
+    left:30%;
+    display: none;
+}
+div.registerTitle {
+    margin-top:0;
+    height:50px;
+    background-color: #1b6d85;
+}
+div.registerTitle span.title {
+    font-family: 苹方常规;
+    font-size:36px;
+    color:black;
+    margin-left:51px;
+}
+div.registerTitle a {
+    float:right;
+    margin-right:15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+div.registerTitle a img {
+    width:20px;
+    height:20px;
+    vertical-align: center;
+}
+div.registerInformation {
+    margin:40px auto;
+    width:353px;
+}
+div.registerInformation input {
+    display: inline-block;
+    width:232px;
+    height:43px;
+    margin-left: 22px;
+}
+div.registerInformation span {
+    display: inline-block;
+    color:black;
+    font-family:黑体;
+    width:88px;
+    font-size:22px;
+    text-align: right;
+}
+div.registerChecked {
+    width:353px;
+    margin:40px auto;
+}
+div.registerChecked span {
+    font-size: 22px;
+    font-family: 黑体;
+    color:black;
+    width:88px;
+    text-align: right;
+}
+div.registerChecked input {
+    width:128px;
+    height:43px;
+    margin-left:22px;
+}
+div.registerChecked button {
+    display: inline-block;
+    width:91px;
+    margin-left:11px;
+    font-family: 黑体;
+    color: black;
+    height:43px;
+}
+button.registerButton {
+    display: block;
+    margin:40px auto;
+    width:321px;
+    height:43px;
+    color:black;
+}
+
+div.forgetPassword {
+    position:absolute;
+    width:504px;
+    height:478px;
+    top:275px;
+    left:30%;
+    background-color: white;
+    display:none;
+}
+div.forgetPasswordTtiele {
+    height:50px;
+    background-color: #1b6d85;
+    margin-top:0;
+}
+div.forgetPassword span.title {
+    font-size:36px;
+    font-family: 黑体;
+    margin-left:51px;
+    color:black;
+}
+div.forgetPasswordTtiele a {
+    float: right;
+    display: inline-block;
+    margin-right:15px;
+    margin-top:15px;
+}
+div.forgetPasswordTtiele a img {
+    width:20px;
+    height:20px;
+}
+div.neededInformation {
+    width:473px;
+    margin:40px auto;
+}
+div.neededInformation span {
+    font-size:22px;
+    font-family: 黑体;
+    text-align: right;
+    color:black;
+    margin-right:10px;
+}
+div.neededInformation input {
+    width:234px;
+    height:43px;
+    margin-right:0px;
+    margin-right:10px;
+}
+div.neededInformation button {
+    width:114px;
+    height:43px;
+    color:black;
+}
+button#neededCancel,
+button#neededNext {
+    display: inline-block;
+    width:182px;
+    height:48px;
+    margin-left:47px;
+}
+div.newPassword {
+    position:absolute;
+    width:504px;
+    height:478px;
+    top:275px;
+    left:30%;
+    background-color: white;
+    display: none;
+}
+div.newPasswordTitle {
+    height:50px;
+    background-color: #1b6d85;
+    margin-top:0;
+}
+
+div.newPassword span.title {
+    font-size:36px;
+    font-family: 黑体;
+    margin-left:51px;
+    color:black;
+}
+
+div.newPasswordTitle a {
+    float: right;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top:15px;
+}
+div.newPasswordTitle a img {
+    width: 20px;
+    height:20px;
+}
+div.newPasswordInformation ,
+div.confirmPassword  {
+    width:469px;
+    margin:40px auto;
+}
+div.newPasswordInformation span,
+div.confirmPassword span {
+    color:black;
+    font-size:24px;
+    font-family: 黑体;
+
+}
+div.newPasswordInformation input,
+div.confirmPassword input {
+    width:263px;
+    height:43px;
+}
+
+button#returnLogIn {
+    width:398px;
+    height:48px;
+    display: block;
+    margin:0 auto;
+    color:black;
+}
+
+
+
+
+div.footer {
+    position: absolute;
+    top:908px;
+    left:35%;
+    margin-bottom: 20px;
+    font-size:12px;
+    color:#b4f5fd;
+    font-family: 苹方常规;
+}

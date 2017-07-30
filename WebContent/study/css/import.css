@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 方正细圆简体;
+    src:url('../font/FZY1JW.TTF');
+}
+@font-face {
+    font-family: 苹方常规;
+    src:url('../font/PINGFANGREGULAR.TTF');
+}
+div.header {
+    height:80px;
+    background:-webkit-gradient(linear,right top,left top,from(#66cdcc), to(#366c9b));
+    margin:0;
+    padding:5px;
+}
+span.chineseTitle {
+    display: inline-block;
+    font-size:40px;
+    color:white;
+    font-family: 方正细圆简体;
+    vertical-align: top;
+    margin-top:20px;
+    margin-left:15px;
+}
+div.englishTitle {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 苹方常规;
+    color:white;
+    margin-top:15px;
+}
+div.englishTitle span {
+    display: block;
+    vertical-align: top;
+}
+div.userInfo {
+    float: right;
+    margin-top:-35px;
+    margin-right:30px;
+}
+div.userInfo span {
+    color:white;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:14px;
+    font-family: 黑体;
+}
+div.userInfo a {
+    color:black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+div.footer {
+    background:-webkit-gradient(linear,right top,left top,from(#66cdcc), to(#366c9b));
+    text-align: center;
+    font-size:12px;
+    font-family: 方正细圆简体;
+    padding:15px;
+}

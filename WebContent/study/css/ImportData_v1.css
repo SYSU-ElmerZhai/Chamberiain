@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 方正细圆简体;
+    src:url('../font/FZY1JW.TTF');
+}
+@font-face {
+    font-family: 苹方常规;
+    src:url('../font/PINGFANGREGULAR.TTF');
+}
+body {
+    font-size:100%;
+    
+}
+th, td {
+    box-sizing: border-box;
+}
+div.header {
+    height:6.25rem;
+    background:-webkit-gradient(linear,right top,left top,from(#66cdcc), to(#366c9b));
+    margin:0;
+    padding:0.3125rem;
+}
+span.chineseTitle {
+    display: inline-block;
+    font-size:2.5rem;
+    color:white;
+    font-family: 方正细圆简体;
+    vertical-align: top;
+    margin-top:1.25rem;
+    margin-left:0.9375rem;
+}
+div.englishTitle {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-family: 苹方常规;
+    color:white;
+    margin-top:1.25rem;
+}
+div.englishTitle span {
+    display: block;
+    vertical-align: top;
+}
+div.userInfo {
+    float:right;
+    margin-top:-2.5rem;
+    margin-right:1.5625rem;
+}
+div.userInfo img {
+    margin-right: 0.3125rem;
+}
+div.userInfo span {
+    color:white;
+    margin-left:0.3125rem;
+    margin-right:0.3125rem;
+    font-size:0.875rem;
+    font-family: 黑体;
+}
+div.userInfo a {
+    color:black;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+div.calendar {
+    float:right;
+    margin-top:76px;
+    margin-right:20px;
+    width:597px;
+    height:500px;
+}
+
+div.calendar select.selectMonth,
+div.calendar select.selectYear {
+    display: inline-block;
+    width: 107px;
+    height:17px;
+    float: right;
+    margin-top:20px;
+}
+div.calendar select.selectYear {
+    margin-right: 20px;
+}
+.calendar-box {
+    margin-top: 5px;
+    padding:20px;
+    border: 1px solid #d4d4d4;
+    background-color: #fdfdfe;
+}
+.calendar-title-box {
+    display:block;
+    font-size:50px;
+    font-family:黑体;
+    width: 557px;
+    text-align: right;
+    border-bottom: 1px solid #d3d3d3;
+}
+.calendar-title-box .calendar-month:after {
+    display: inline;
+    font-size: 36px;
+    content: '月';
+}
+.calendar-body-box {
+    clear: both;
+    margin-top:5px;
+}
+.calendar-body-box th {
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;
+}
+.calendar-body-box td {
+    width:557px;
+    height:50px;
+    
+    padding-top:25px;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;
+    position:float;
+}
+.calendar-body-box th:nth-child(7n), .calendar-body-box td:nth-child(7n) {
+    border-right: none;
+}
+span.u-getDay {
+	float:left;
+	margin-left:2rem;
+
+}
+a.u-dataLink {
+	cursor:pointer;
+	float:right;
+	margin-top:-1.5rem;
+	margin-right:0.3125rem;
+}
+div.content {
+    background-color: #f8f8f8;
+    margin:0;
+    padding:0.0625rem;
+}
+div.moneyIn {
+    margin-top:5.6875rem;
+}
+div.content div.input {
+    margin-left:6.25rem;
+}
+div.content div.input input {
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+}
+div.content div.input input.year {
+    width:7.8125rem;
+    height:2.5rem;
+    margin-right:1.3125rem;
+}
+div.content div.input span {
+    font-size:1.125rem;
+    font-family: 黑体;
+    margin-right:1.3125rem;
+}
+div.content div.input input.month, div.content div.input input.day {
+    width:6.25rem;
+    height:2.5rem;
+    margin-right:1.3125rem;
+}
+div.content div.input a {
+    cursor: pointer;
+}
+div.inputMoney {
+    display: inline-block;
+}
+div.inputMoney input {
+    width:9.0625rem;
+    height:2.5rem;
+}
+div.inputMoney span {
+    font-size:1.125rem;
+    font-family:黑体;
+}
+div.Chart {
+    width:48rem;
+    height:12.5rem;
+    margin-left:2rem;
+    margin-top:2.8125rem;
+    margin-bottom:1.125rem;
+    border:1px solid #d3d3d3;
+}
+div.input span.u-introChart {
+	display:block;
+	width:12rem;
+	margin-top:0;
+	margin-left:20rem;
+	margin-bottom:3.3125rem;
+	font-weight:bold;
+	
+}
+div.content div.action {
+    margin-bottom:5rem;
+}
+div.content div.action button {
+    width:13.875rem;
+    height:3.375rem;
+    background-color: #1abc9c;
+    color:white;
+    font-size:1.5rem;
+    font-family: 苹方常规;
+    outline:none;
+    border:0;
+}
+div.content div.action button#confirmIn {
+    margin-left:20.0625rem;
+}
+div.content div.action button#toAnalyze {
+    margin-left:3.5625rem;
+}
+
+div.g-modify {
+	width:31.9375rem;
+	height:23.9375rem;
+	position:absolute;
+	top:20.9375rem;
+	left:35%;
+	background-color:white;
+	box-shadow:0 0 1.25rem 0.3125rem rgba(83,83,83,0.66);
+	display:none;
+}
+div.m-title {
+	background-color:#1abc9c;
+	height:3.125rem;
+	margin-bottom:2.8125rem;
+}
+div.m-title span {
+	display:inline-block;
+	float:left;
+	font-size:1.25rem;
+	font-family:苹方常规;
+	color:white;
+	margin:0.625rem;
+}
+div.m-title a {
+	display:inline-block;
+	width:1.25rem;
+	height:1.25rem;
+	float:right;
+	margin:0.625rem;
+}
+
+div.m-timeShow span {
+	display:inline-block;
+	margin-left:1.5rem;
+	font-size：1.125rem;
+	font-family:黑体;
+	clolor:black;
+}
+
+div.m-dataInformation {
+	margin-top:1.875rem;
+	text-align:center;
+}
+div.m-dataInformation span {
+	display:inline-block;
+	width:5rem;
+	font-size:1.125rem;
+	font-family:黑体;
+	color:black;
+	text-align:right;
+	margin-left:1.375rem;
+	margin-top:0.8125rem;
+	
+}
+div.m-dataInformation input {
+	display:inline-block;
+	vertical:top;
+	width:16.4375rem;
+	height:2.6875rem;
+	border:1px solid #e1e1e1;
+	border-radius:0.3125rem;
+	outline:none;
+	margin-right:1.25rem;
+	color:black;
+}
+div.m-dataInformation input:focus {
+	border:2px solid #1abc9c;
+	box-shadow:0 0 0.125rem 0.1875rem rgba(118,222,201,0.24);
+}
+input.u-submitModify {
+	display:inline-block;
+	width:24.875rem;
+	height:3rem;
+	font-size:1.125rem;
+	font-family:黑体;
+	color:white;
+	vertical-align:top;
+	margin-top:2.3125rem;
+	margin-left:3.5rem;
+	padding:0;
+	background-color:#1abc9c;
+	border:0;
+	outline:none;
+}
+div.g-modify input.u-timeInfo {
+	display:none;
+}
+
+
+
+div.footer {
+    background:-webkit-gradient(linear,right top,left top,from(#66cdcc), to(#366c9b));
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 方正细圆简体;
+    padding:0.9375rem;
+}
+span.u-getAllData {
+	display:block;
+}

@@ -1,0 +1,98 @@
+﻿.f-hide
+{
+    display: none;
+}
+body
+{
+    font-size: 100%;
+}
+th,
+td
+{
+    box-sizing: border-box;
+}
+div.header
+{
+    height: 6.25rem;
+    margin: 0;
+    padding: .3125rem;
+
+    background: -webkit-linear-gradient(left, #66cdcc, #366c9b);
+    background:    -moz-linear-gradient(right, #66cdcc, #366c9b);
+    background:      -o-linear-gradient: (right, #66cdcc, #366c9b);
+    background:         linear-gradient(right, #66cdcc, #366c9b);
+}
+span.chineseTitle
+{
+    font-family: '方正细圆简体', '微软雅黑', Serif, 'Sans-serif';
+    font-size: 2.5rem;
+
+    display: inline-block;
+
+    margin-top: 1.25rem;
+    margin-left: .9375rem;
+
+    vertical-align: top;
+
+    color: white;
+}
+div.englishTitle
+{
+    font-family: '苹方常规', '微软雅黑', Serif, 'Sans-serif';
+    font-size: 1.25rem;
+
+    display: inline-block;
+
+    margin-top: 1.25rem;
+
+    color: white;
+}
+div.englishTitle span
+{
+    display: block;
+
+    vertical-align: top;
+}
+div.userInfo
+{
+    float: right;
+
+    margin-top: -2.5rem;
+    margin-right: 1.5625rem;
+}
+div.userInfo img
+{
+    margin-right: .3125rem;
+}
+div.userInfo span
+{
+    font-family: '黑体', '微软雅黑', Serif, 'Sans-serif';
+    font-size: .875rem;
+
+    margin-right: .3125rem;
+    margin-left: .3125rem;
+
+    color: white;
+}
+div.userInfo a
+{
+    font-size: .875rem;
+
+    text-decoration: none;
+
+    color: black;
+}
+div.footer
+{
+    font-family: '方正细圆简体', '微软雅黑', Serif, 'Sans-serif';
+    font-size: .75rem;
+
+    padding: .9375rem;
+
+    text-align: center;
+
+    background: -webkit-linear-gradient(left, #66cdcc, #366c9b);
+    background:    -moz-linear-gradient(right, #66cdcc, #366c9b);
+    background:      -o-linear-gradient: (right, #66cdcc, #366c9b);
+    background:         linear-gradient(right, #66cdcc, #366c9b);
+}
